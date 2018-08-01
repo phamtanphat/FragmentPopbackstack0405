@@ -10,5 +10,5 @@
         android:textSize="40sp"
         android:text="Fragment Android"
         android:layout_width="match_parent"
-        android:layout_height="300dp" />
+        android:layout_height="150dp" />
 </LinearLayout>
