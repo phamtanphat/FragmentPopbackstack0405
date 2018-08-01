@@ -8,29 +8,34 @@
     tools:context=".MainActivity">
 
     <Button
+        android:onClick="AddAndroid"
         android:text="Add Android"
         android:id="@+id/buttonAddAndroid"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
     <Button
+        android:onClick="Addios"
         android:layout_toRightOf="@id/buttonAddAndroid"
         android:text="Add iOS"
         android:id="@+id/buttonAddios"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
     <Button
+        android:onClick="ReplaceAndroid"
         android:layout_toRightOf="@id/buttonAddios"
         android:text="Replace Android"
         android:id="@+id/buttonReplaceAndroid"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
     <Button
+        android:onClick="Replaceios"
         android:layout_below="@id/buttonAddios"
         android:text="Replace iOS"
         android:id="@+id/buttonReplaceios"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
     <Button
+        android:onClick="RemoveAndroid"
         android:layout_below="@id/buttonAddAndroid"
         android:layout_toRightOf="@id/buttonReplaceios"
         android:text="Remove Android"
@@ -38,6 +43,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
     <Button
+        android:onClick="Removeios"
         android:layout_toRightOf="@id/buttonRemoveAndroid"
         android:layout_below="@id/buttonAddios"
         android:text="Remove iOS"
@@ -45,12 +51,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
     <Button
+        android:onClick="Popbackstack"
         android:layout_below="@id/buttonRemoveios"
         android:text="Pop back stack"
         android:id="@+id/buttonPopBackStack"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
     <RelativeLayout
+        android:id="@+id/relativelayout"
         android:layout_below="@+id/buttonPopBackStack"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
